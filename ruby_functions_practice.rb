@@ -42,3 +42,28 @@ def number_to_full_month_name( name )
     return "Fail"
   end
 end
+
+def number_to_short_month_name( name )
+  case (name)
+  when 1
+    return "Jan"
+  when 3
+    return "Mar"
+  when 9
+    return "Sep"
+  else
+    return "Fail"
+  end
+end
+
+def volume_of_cube(dim)
+  return dim**3
+end
+
+def volume_of_sphere(radius)
+  return (4/3)*(Math::PI)*(radius**3)
+end
+
+def fahrenheit_to_celsius(temp_f)
+  return ((temp_f - 32.0) * 5.0 / 9.0)
+end
