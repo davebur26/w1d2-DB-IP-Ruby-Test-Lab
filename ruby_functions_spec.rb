@@ -89,9 +89,15 @@ class Functions_Practice < MiniTest::Test
   end
 
   #Given a value in farenheit, convert this into celsius.
+  #Temperatures to 1 decimal place
   def test_fahrenheit_to_celsius()
     temp_c = fahrenheit_to_celsius(0).round(1)
     assert_equal(-17.8,temp_c)
+  end
+
+  def test_volume_of_cuboid()
+    volume = volume_of_cuboid(3,5,5)
+    assert_equal(75,volume)
   end
 
 

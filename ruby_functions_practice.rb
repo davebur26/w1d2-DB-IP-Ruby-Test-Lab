@@ -67,3 +67,7 @@ end
 def fahrenheit_to_celsius(temp_f)
   return ((temp_f - 32.0) * 5.0 / 9.0)
 end
+
+def volume_of_cuboid(height,length,bredth)
+  return height * length * bredth
+end
