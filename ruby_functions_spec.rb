@@ -96,8 +96,8 @@ class Functions_Practice < MiniTest::Test
   end
 
   def test_volume_of_cuboid()
-    volume = volume_of_cuboid(3,5,5)
-    assert_equal(75,volume)
+    volume = volume_of_cuboid(4,5,5)
+    assert_equal(100,volume)
   end
 
 
